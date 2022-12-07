@@ -6,9 +6,6 @@
   "author": "Natan Fernandes <natangt11@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^29.3.1"
-  },
-  "scripts": {
-    "test": "jest"
+    "standard": "^17.0.0"
   }
 }
