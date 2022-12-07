@@ -5,7 +5,19 @@
   "repository": "https://github.com/natanFernandesDev/clean-node-api.git",
   "author": "Natan Fernandes <natangt11@gmail.com>",
   "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "standard"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "devDependencies": {
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
     "standard": "^17.0.0"
   }
 }
